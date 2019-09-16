@@ -1,6 +1,6 @@
 {
   "name": "@shawndrake2/vue-components",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "license": "MIT",
   "description": "Collection of VueJS components",
   "keywords": [
@@ -38,9 +38,7 @@
   "files": [
     "dist/*",
     "module/*",
-    "src/*",
-    "*.json",
-    "*.js"
+    "src/components"
   ],
   "eslintConfig": {
     "root": true,
