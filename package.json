@@ -1,10 +1,22 @@
 {
-  "name": "vue-components",
+  "name": "@shawndrake2/vue-components",
   "version": "0.1.0",
-  "private": true,
+  "license": "MIT",
+  "description": "Collection of VueJS components",
+  "keywords": [
+    "VueJS",
+    "Vue",
+    "Bulma",
+    "components"
+  ],
+  "main": "./dist/vue-components.common.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shawndrake2/vue-components.git"
+  },
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "vue-cli-service serve --open",
+    "build": "vue-cli-service build --target lib --name vue-components ./module/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -20,6 +32,13 @@
     "eslint-plugin-vue": "^5.0.0",
     "vue-template-compiler": "^2.6.10"
   },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
   "eslintConfig": {
     "root": true,
     "env": {
